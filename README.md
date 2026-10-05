@@ -7,7 +7,7 @@ DocuPilot AI is a Streamlit application designed to process business documents (
 - **Python Version:** 3.13.x
 - **Virtual Environment:** `.venv`
 - **SDK:** `google-genai`
-- **Model:** `gemini-2.5-flash`
+- **Model:** `gemini-3.8-flash`
 
 ## Local Setup Instructions
 
