@@ -14,7 +14,7 @@ load_dotenv("keys.env")
 # Page Configuration & Styling
 st.set_page_config(
     page_title="DocuPilot AI",
-    page_icon="⚡",
+    page_icon="logo.png",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -125,7 +125,7 @@ def analyze_document_with_gemini(document_text: str, api_key: str) -> str:
 
 # Sidebar Controls
 with st.sidebar:
-    st.image("logo.png", width=200)
+    st.image("logo.png", width=250)
     st.title("DocuPilot AI")
     st.caption("v1.0 • Powered by Gemini 2.0")
     
